@@ -1,5 +1,5 @@
 module.exports = {
     images: {
-        domains: ['og-image-alpha-topaz.vercel.app'],
+        domains: ['og-image.schktjm.vercel.app'],
     },
 }

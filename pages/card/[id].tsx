@@ -13,10 +13,10 @@ const Page = ({ id }) => {
                 <meta name="twitter:creator" content="@schktjm" key="twittercreate" />
                 <meta property="og:title" content="CLUB p1ass" />
                 <meta property="og:description" content="UNOFFICIAL FANCLUB MEMBER'S CARD" />
-                <meta property="og:image" content={`https://og-image-alpha-topaz.vercel.app/${id}`} key="ogp" />
+                <meta property="og:image" content={`https://og-image.schktjm.vercel.app/${id}`} key="ogp" />
             </Head>
             <Main>
-                <Image src={`https://og-image-alpha-topaz.vercel.app/${id}`} alt="fanclub card" width={1016} height={532} />
+                <Image src={`https://og-image.schktjm.vercel.app/${id}`} alt="fanclub card" width={1016} height={532} />
                 <Icons>
                     <Back>
                         <Link href="/">
@@ -27,7 +27,7 @@ const Page = ({ id }) => {
                         </Link>
                     </Back>
 
-                    <TwitterShareButton hashtags={["club_p1ass", "p1ass_LT"]} url={`https://club-p1ass.schktjm.vercel.app/card/${id}`} >
+                    <TwitterShareButton title={"CLUB p1ass に入会しました！"} hashtags={["club_p1ass", "p1ass_LT"]} url={`https://club-p1ass.schktjm.vercel.app/card/${id}`} >
                         <TwitterIcon size={48} round>
                         </TwitterIcon>
                     </TwitterShareButton>
